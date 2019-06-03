@@ -19,18 +19,22 @@ body{
 /*Forma do cabeçario*/
 
 
-#cabecario{
-  position: fixed;
-  width:100%;
-  margin: 0 auto;
+#cabecario {
+    height: 130px;
+    background-image: url(img/cabe.jpg);
+    z-index: 9999;
+    /* margin: 0!important; */
+    /* position: fixed; */
+    width: 100%;
+}
+#cabecarinho{
   height:130px;
   background-image: url("img/cabe.jpg");
-  background-attachment: fixed;
   z-index:9999;
-  size: cover;
   box-shadow: 0px 0px 10px;
+  width: 100%;
+  position: fixed;
 }
-
 #icon{
   width: auto;
   position: relative;
