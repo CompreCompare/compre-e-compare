@@ -245,6 +245,7 @@ li.slick-active button{
   height: auto;
   margin: 0 auto!important;
   clear: both !important;
+  padding-bottom: 100px;
 }
 .title{
   text-align: center;

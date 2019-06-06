@@ -41,3 +41,14 @@ $('.tab a').on('click', function (e) {
   $(target).fadeIn(600);
   
 });
+
+function logar(){
+    var log=document.form1.txtEmail.value;
+    var senha=document.form1.pswSenha.value;
+    if (log=="thiago@gmail.com" && senha=="4321") {
+      window.location.replace("produtos/user1.html");
+    }else if (log=="bruno" && senha=="abc123") {
+      window.location.replace("ddd.html");
+    }
+               
+}

@@ -177,38 +177,17 @@ header h4 {
 
 /*busca*/
 /*Forma.da.Pagina*/
-
-#titulo{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  border-style: solid;
-  border-radius: 5px;
-  margin-left: 32%;
-  margin-right: 32%;
-  background-color: #af0000;
-  position: absolute;
-  top: 25%;
-  padding: 3px;
-  margin-top:8px;
-}
 .responsivo{
   max-width: 100% !important;
   height: auto !important;
 }
-#principalimg {
-    position: absolute;
-    left: 57.6%;
-    top: 40%;
-}
-#img2 {
-    position: absolute;
-    left: 41%;
-    top: 45%;
-}
-#img3{
-  position: absolute;
-  left:77%;
-  top: 45%;
+#interface_app{
+  float: right;
+  clear: both;
+  margin-top: 200px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 5vw;
 }
 #download{
   max-width: 100%;
@@ -228,20 +207,18 @@ header h4 {
   color: #e4e4e4;
   font-family: 'Montserrat',sans-serif;
   font-size: 16px;
-  position: relative;
   text-align: center;
 }
 #divb {
-    background-color: transparent;
-    /* padding: 12px; */
     position: relative;
     width: 22%;
-    top: 176px;
-    left: 38vw;
+    height: 78px;
+    margin: 0 auto;
+    clear: both;
 }
 #app{
   width:100%;
-  height:900px;
+  height:800px;
   background-image: url("background2.jpg");
   background-repeat: no-repeat;
   background-size: 130%;
@@ -249,6 +226,7 @@ header h4 {
   background-position: center;
   background-color: #aabbaa;
   box-shadow: 0px 0px 5px;
+  box-sizing: border-box;
 }
 #tex{
   color: white;
@@ -257,7 +235,8 @@ header h4 {
   font-size: 285%;
   float: left;
   margin-left: 3%;
-  margin-top: 20%;
+  margin-top: 230px;
+
 }
 #tex strong{
   color: red;

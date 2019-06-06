@@ -30,18 +30,22 @@ a:hover {
   color: red;
 }
 /*Forma do cabeçario*/
-#cabecario{
-  position: fixed;
-  width:100%;
-  margin: 0 auto;
+#cabecario {
+    height: 130px;
+    background-image: url(img/cabe.jpg);
+    z-index: 9999;
+    /* margin: 0!important; */
+    /* position: fixed; */
+    width: 100%;
+}
+#cabecarinho{
   height:130px;
   background-image: url("img/cabe.jpg");
-  background-attachment: fixed;
   z-index:9999;
-  size: cover;
   box-shadow: 0px 0px 10px;
+  width: 100%;
+  position: fixed;
 }
-
 #icon{
   width: auto;
   position: relative;
@@ -49,14 +53,19 @@ a:hover {
   left: 60px;
   margin: 0px;
 } 
-header h4{
-  width: auto;
-  position:relative;
-  bottom:15%;
-  right:39%;
-  font-family:'Quenda';
-  margin: 0px auto !important;
-  display: table;
+header h4 {
+    /* width: auto; */
+    /* position: relative; */
+    /* bottom: -53px; */
+    /* float: left; */
+    font-family: 'Quenda';
+    /* margin: 0px auto !important; */
+    /* clear: both; */
+    width: auto;
+    position: relative;
+    top: -23px;
+    left: 44px;
+    margin: 0px;
 }
 @font-face{
   font-family: 'Quenda';
@@ -313,25 +322,25 @@ textarea {
   margin: 0;
 }
 
-.button {
-  border: 0;
-  outline: none;
-  border-radius: 0;
-  padding: 15px 0;
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  background:#b60809;
-  color: #ffffff;
-  transition: all 0.5s ease;
-  -webkit-appearance: none;
+input .button {
+  border: 0 !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  padding: 15px 0 !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  background:#b60809 !important;
+  color: #ffffff !important;
+  transition: all 0.5s ease !important;
+  -webkit-appearance: none !important;
 }
-.button:hover, .button:focus {
+input .button:hover, .button:focus {
   background: black;
 }
 
-.button-block {
+input .button-block {
   display: block;
   width: 100%;
 }
