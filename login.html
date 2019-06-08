@@ -17,13 +17,14 @@
 
 <body>
   <header id="cabecarinho">
+    <div id="complemento"></div>
      <header id="cabecario">
        <nav id="cssmenu">
          <ul>
            <li class="active"><a href="index.html">Inicio</a></li>         
-           <li><a href="login.html">Entrar</a></li>
-           <li><a href="pagina2.html">App</a></li>
-           <li><a href="pagina4.html">Sobre</a></li>      
+           <li><a href="login.html" target="_blank">Entrar</a></li>
+           <li><a href="pagina2.html" target="_blank">App</a></li>
+           <li><a href="pagina4.html" target="_blank">Sobre</a></li>      
          </ul>
            </nav>
                 <a href="index.html"><img src="img/consegui.png" id="icon"></a>
@@ -99,70 +100,26 @@
         
         <div id="login">   
           <h1>Bem vindo de volta!</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           
-          <form action="/" method="post" name="form1">
+          <form action="/" method="post">
           
             <div class="field-wrap">
-
             <label>
               Email<span class="req">*</span>
             </label>
-
-
-            <input type="email"required autocomplete="off" name="txtEmail"/>
+            <input type="email"required autocomplete="off"/>
           </div>
           
           <div class="field-wrap">
-
             <label>
               Senha<span class="req">*</span>
             </label>
-
-            <input type="password"required autocomplete="off" name="pswSenha" />
+            <input type="password"required autocomplete="off"/>
           </div>
           
           <p class="forgot"><a href="#">Esqueceu a Senha?</a></p>
           
-          <input type="button" name="" class="button button-block" value="Entrar" onclick="logar()"  /></input>
+          <button class="button button-block"/>Entrar</button>
           
           </form>
 
@@ -184,12 +141,18 @@
 
 
 
-   <footer id="barra">
-<div class="contente">
+   <footer>
+      <div class="contente">
             <div class="footer-grids">
                 <div class="footer one">
-                    <h3>Mais sobre a empresa</h3>
-                    <p>Pois ninguém rejeita, não gosta, ou evita-se o prazer, porque é prazer, mas porque eles não sabem como buscar o prazer racionalmente encontro consequências que são as dores daqueles que têm.</p>
+                    <a target="_blank" href="https://marvelapp.com/5iigccd/screen/57238083">
+                      <img src="img/footer_icon-apple.png" style="max-width: 100%; height: auto;" id="apple-store">
+                    </a>
+                    <a target="_blank" href="https://marvelapp.com/5iigccd/screen/57238083">
+                      <img src="img/footer_icon-google.png" style="max-width: 100%; height: auto;" id="google-play">
+                    </a>
+                    <img src="img/footer_logo.png" id="logo" style="max-width: 100%; height: auto;">
+                    <p>Copyright © 2019-2019 | Todos os dereitos reservados.</p>
                     <div class="clear"></div>
                 </div>
 
@@ -198,7 +161,7 @@
 
 
                 <div class="footer two">
-                    <h3>Mantenha-se conectado</h3>
+                    <h3>Mantenha-se Conectado</h3>
                     <ul>
                         <li><a class="fb" href="#"><i></i>Curta-nos no Facebook</a></li>
                         <li><a class="fb1" href="#"><i></i>Siga-nos no Twitter</a></li>
@@ -209,15 +172,15 @@
                 <div class="footer three">
                     <h3>Informações de contato</h3>
                     <ul>
-                        <li>Compre & Compare<span>Diadema (SP)</span>  </li>
+                        <li>Compre & Compare<span>Diadema (SP)</span></li>
                         <li>+55 (11) 91234-5678</li>
                         <li><a href="mailto:info@example.com">Compre_compare@outlook.com</a> </li>
                     </ul>
                 </div>
                 <div class="clear"></div>
-            </div>
-            
+            </div>           
         </div>
+
     </footer>
 
 
