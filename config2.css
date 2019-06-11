@@ -192,7 +192,7 @@ header h4 {
   margin-top: 200px;
   margin-left: 0;
   margin-bottom: 0;
-  margin-right: 5vw;
+  margin-right: 2vw;
 }
 #download{
   max-width: 100%;
@@ -233,15 +233,14 @@ header h4 {
   box-shadow: 0px 0px 5px;
   box-sizing: border-box;
 }
-#tex{
+#tex {
   color: white;
   font-family: 'Montserrat',sans-serif;
   display: block;
-  font-size: 285%;
+  font-size: 4vw;
   float: left;
-  margin-left: 3%;
+  margin-left: 2vw;
   margin-top: 250px;
-
 }
 #tex strong{
   color: red;

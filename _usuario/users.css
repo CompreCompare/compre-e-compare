@@ -1,0 +1,383 @@
+@charset"UTF-8"
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+
+body{
+   max-width: 100%;
+   max-height: 100%;
+   margin: 0 auto;
+   background-image: url("../img/fundo-de-sala.jpg");
+   background-repeat:round;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   overflow-x: hidden;
+}
+/*Forma do cabeçario*/
+@font-face{
+  font-family: 'Quenda';
+  src: url("../fonts/quenda/Quenda-Medium.otf");
+}
+h5{
+  color: white !important;
+}
+
+[class*="span3 well"] {
+  float: none !important;
+  min-height: 0 !important;
+  margin:0 auto !important;
+}
+#sair{ 
+   font-weight: normal;
+    background-color: #a90000;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #ffffff !important;
+    text-align: center;
+    /* margin-top: 0px; */
+    /* margin-left: 0px; */
+    padding: 7px;
+    font-size: 14px;
+    width: 64px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+/*-- main_roda_pé --*/
+
+
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{ vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{  vertical-align:top;}/* vertical align top */
+nav.vertical ul li{ display:block;}/* vertical menu */
+nav.horizontal ul li{ display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+.contente{
+    margin: 0 auto;
+    background-image: url("../img/cabe.jpg");
+    background-attachment: fixed;
+    box-shadow: 0px 0px 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clear: both;
+}
+.footer-grids{
+    background-image: url("../img/cabe.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3em 3em;
+}
+p.footer-gd {
+    color: #908F8F;
+    font-weight: 500;
+    font-size:14px;
+}
+p.footer-gd a {
+    color:#fff;
+}
+p.footer-gd a:hover {
+    color: #2e99ff;
+}
+.footer{
+    float:left;
+}
+#apple-store {
+    position: absolute;
+    /* float: left; */
+    margin-left: 76px;
+    z-index: 1;
+}
+#google-play {
+    position: absolute;
+    /* float: right; */
+    /* margin-right: 30px; */
+    z-index: 1;
+    margin-left: 39px;
+}
+.footer #logo{
+    font-weight: 500;
+    margin-bottom: 80px;
+    z-index: 2;
+    position: sticky;
+    margin-top: 10px
+}
+.footer h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+    font-family: 'Quenda', sans-serif;
+}
+.footer.one {
+    width: 37%;
+}
+.footer.three {
+    width: 23%;
+}
+.footer.one p{
+    color:white;  
+    font-family:'Quenda'; 
+    line-height:2em;
+    font-size:14px;
+    margin: 0 auto;
+    padding: 0;
+    text-indent: 0;
+    margin-top: 25px;
+}
+.footer.two {
+    width: 23%;
+    margin: 0 8%;
+}
+.footer.two ul{
+    margin:0;
+    padding:0;
+}
+.footer.two ul li{
+    list-style-type:none;
+    display:block;
+    line-height: 1.5em;
+    font-size:14px;
+}
+.footer.two ul li a{
+    color:white;  
+    display:block;
+    font-family:'Quenda'; 
+}
+.footer.two ul li a.fb {
+    background: url("../img/icon-fece.png") no-repeat 0px 4px;  
+    padding: 10px 0 12px 52px;
+}
+.footer.two ul li a.fb1 {
+    background: url("../img/icon-twiter.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer.two ul li a.fb2 {
+    background: url("../img/icon-google.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer.two ul li a.fb3 {
+    background: url("../img/icon-insta.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+
+.footer.three ul li {
+    list-style-type: none;
+    display: block;
+    color: white;
+    font-family:'Quenda';
+    font-size: 14px;
+    line-height: 2.5em;
+}
+.footer.three ul li span {
+    display: block;
+}
+.footer.three ul li:nth-child(1) {
+    background: url("img/icon2.png") no-repeat 0px 6px;
+    padding-left: 38px;
+}
+.footer.three ul li:nth-child(2) {
+    background: url("img/icon3.png") no-repeat 0px 6px;
+    padding-left: 38px;
+}
+.footer.three ul li a {
+    background: url("img/icon1.png") no-repeat 0px 6px;
+    padding-left: 38px;
+    display: block;
+    color:white;
+}
+
+.footer.two ul li a.fb:hover {
+    background: url("img/icon-fece_hover.png") no-repeat 0px 4px;
+}
+.footer.two ul li a.fb1:hover {
+    background: url("img/icon-twiter_hover.png") no-repeat 0px 4px;
+}
+.footer.two ul li a.fb2:hover {
+    background: url("img/icon-google_hover.png") no-repeat 0px 4px;
+}
+.footer.two ul li a.fb3:hover {
+    background: url("img/icon-insta_hover.png") no-repeat 0px 4px;
+}
+
+.footer.two ul li a:hover,.copy-right ul li a:hover,.footer.three ul li a:hover{
+    color:black;
+}
+/*-- responsive media queries --*/
+/*-- responsive roda pé --*/
+@media only screen and (min-width: 0){
+.footer-grids {
+    min-width: 62.5em;
+    max-width: 80em;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1440px){
+  .contente{
+    width: 100%;
+  } 
+}
+@media (max-width: 1366px){
+  .footer.one {
+    width: 38%;
+  }
+  .footer-grids {
+    padding: 2.5em 2.5em;
+  } 
+}
+
+@media (max-width: 1080px){
+  .contente{
+    width: 80%;
+  }
+  .footer #logo,h3,h4 {
+    font-size: 19px;
+  }
+  .copy-left {
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .copy-right {
+    float: none;
+    text-align: center;
+  }
+  .footer.two ul li a.fb2 ,.footer.two ul li a.fb,.footer.two ul li a.fb1,.footer.two ul li a.fb3{
+    padding: 10px 0 10px 38px;
+  }
+  .footer #logo,h3,h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px){
+  .footer-grids {
+    padding: 2em 2em;
+  }
+  .contente{
+    width: 82%;
+  }
+
+}
+@media (max-width: 991px){
+  .footer.two {
+    width: 27%;
+    margin: 0 5%;
+  }
+  .footer.three {
+    width: 25%;
+  } 
+}
+@media (max-width: 800px){
+  .contente{
+    width: 88%;
+  }
+  .footer.one p {
+    font-size: 13px;
+  }
+  .footer.two ul li {
+    font-size: 13px;
+  }
+  .footer.three ul li {
+    font-size: 13px;
+  } 
+  .footer.three ul li:nth-child(1),.footer.three ul li:nth-child(2),.footer.three ul li a{
+    padding-left: 32px; 
+  }
+  .footer #logo,h3,h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px){
+  .contente{
+    width: 90%;
+  }
+  p.footer-gd {
+    font-size: 13px;
+  } 
+}
+@media (max-width: 736px){
+  .footer.one {
+    width: 35%;
+  }
+  .footer.two {
+    width: 29%;
+    margin: 0 4%;
+  }
+  .footer.three {
+    width: 27%;
+  } 
+}
+@media (max-width: 667px){
+  .footer.one {
+    width: 100%;
+  }
+  .footer.two {
+    width: 48%;
+    margin: 0 4% 0 0;
+  } 
+  .footer.three {
+    width: 48%;
+  }
+  .footer.one {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 640px){
+  .footer-grids {
+    padding: 2.5em 2.5em;
+  }
+}
+@media (max-width: 480px){
+  .footer-grids {
+    padding: 1.5em 1.5em;
+  }
+  p.footer-gd {
+    line-height: 1.8em;
+  } 
+}
+@media (max-width: 414px){
+.footer.two {
+    width: 100%;
+}
+.footer.three {
+    width: 100%;
+}
+.footer #logo {
+    margin-bottom: 18px;
+}
+.footer.one {
+    margin-bottom: 0;
+}
+.footer.two {
+    width: 100%;
+    margin: 30px 0;
+}
+.footer-grids {
+    padding: 2em 2em;
+}
+
+.copy-right ul li {
+    line-height: 1.8em;
+} 
+.footer-grids, #cabecario {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
