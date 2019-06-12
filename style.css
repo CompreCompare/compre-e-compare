@@ -289,26 +289,26 @@ label.highlight {
   color: #ffffff;
 }
 .button {
-    border: 0;
-    outline: none;
-    border-radius: 0;
-    padding: 15px 0;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    background: #b60809;
-    color: #ffffff;
-    transition: all 0.5s ease;
-    -webkit-appearance: none;
+  border: 0 !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  padding: 15px 0 !important;
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .1em !important;
+  background: #b60809 !important;
+  color: #ffffff !important; 
+  transition: all 0.5s ease !important;
+  -webkit-appearance: none !important;
 }
-.button:hover, .button:focus {
-  background: black;
+.button:hover,.button:focus {
+  background: black !important;
 }
 
 .button-block {
-  display: block;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
 }
 
 .form input, textarea {
@@ -320,9 +320,8 @@ label.highlight {
   background: none;
   background-image: none;
   border: 3px solid white;
-  border-radius: 15px !important;
+  border-radius: 15px;
   color: #ffffff;
-  border-radius: 0;
   transition: border-color .25s ease, box-shadow .25s ease;
 }
 .form input:focus, textarea:focus {
@@ -360,7 +359,7 @@ textarea {
 
 ::selection {
     color: #fff;
-    background: #003cd7;
+    background: #940f0f;
     text-shadow: none;
 }
 /*-- main_roda_pé --*/
