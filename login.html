@@ -77,7 +77,6 @@
               <input type="text"required autocomplete="off"/>
             </div>
           </div>
-
           <div class="field-wrap">
             <label>
               Email<span class="req">*</span>
@@ -98,28 +97,45 @@
 
         </div>
         
+
+
+
+
+
+
+
+
+
         <div id="login">   
           <h1>Bem vindo de volta!</h1>
           
-          <form action="/" method="post">
+
+
+
+
+
+
+
+
+          <form action="/" method="post" name="form1">
           
             <div class="field-wrap">
             <label>
               Email<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input type="email"required autocomplete="off" name="txtEmail"/>
           </div>
           
           <div class="field-wrap">
             <label>
               Senha<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"/>
+            <input type="password"required autocomplete="off" name="pswSenha"/>
           </div>
           
           <p class="forgot"><a href="#">Esqueceu a Senha?</a></p>
           
-          <button class="button button-block"/>Entrar</button>
+            <input type="button" class="button button-block" value="Entrar"  onclick="usuario();">
           
           </form>
 
