@@ -267,6 +267,9 @@ li.slick-active button{
   text-align: center;
   font-size: 1.8vw;
   position: relative;
+  font-family:'Montserrat',sans-serif;
+  text-indent:20px; 
+  padding:10px;  
 }
 #foto{
   float: left;
@@ -307,16 +310,10 @@ h1{
     font-weight: 700;
     font-size: 32px;
 }
-p{
-    font-family:'Montserrat',sans-serif;
-    text-align:justify;
-    text-indent:20px; 
-    font-size:30px;
-    padding:10px;  
-}
+
 ::selection {
     color: #fff;
-    background: #003cd7;
+    background: red;
     text-shadow: none;
 }
 /*Forma do Site*/
@@ -678,5 +675,7 @@ p.footer-gd a:hover {
     padding-left: 0;
     padding-right: 0;
 }
+
+
 
 

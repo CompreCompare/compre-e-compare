@@ -185,18 +185,8 @@ header h4 {
 /*busca*/
 
 /*Forma do Site*/
-.color_11 {color: #FFFFFF;}
-.font_0 {font: normal normal normal 32px/1.4em anton,sans-serif ;color:#181818;} 
-.font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2E2D2D;} 
-.font_2 {font: normal normal normal 25px/1.4em anton,sans-serif ;color:#181818;} 
-.font_3 {font: normal normal normal 78px/1.4em anton,sans-serif ;color:#181818;} 
-.font_4 {font: normal normal normal 40px/1.4em anton,sans-serif ;color:#181818;} 
-.font_5 {font: normal normal normal 32px/1.4em anton,sans-serif ;color:#181818;} 
-.font_6 {font: normal normal normal 15px/1.4em anton,sans-serif ;color:#181818;} 
+.color_11 {color: #FFFFFF;    font: normal normal normal 25px/1.4em anton,sans-serif;}
 .font_7 {font: normal normal normal 20px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#181818;line-height:1.5em; text-align:center;} 
-.font_8 {font: normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#181818;} 
-.font_9 {font: normal normal normal 12px/1.4em avenir-lt-w01_35-light1475496,sans-serif ;color:#181818;} 
-.font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#2E2D2D;} 
 #sobre{
   max-width: 1183px;
   height: 811px;
@@ -211,16 +201,64 @@ header h4 {
   box-shadow: 0px 0px 10px;
 }
 #texto{
-  width: 570px;
-  height: 810px;
-  position: relative;
-  background-color: #181818;
-  float: left;
-  border-left: 6px solid;
-  border-color: transparent;
-  border-top-left-radius:13%;
-  border-bottom-left-radius:13%;
-  box-shadow:  2px 0px 2px;
+    width: 570px;
+    height: 810px;
+    position: relative;
+    background-color: transparent;
+    float: left;
+}
+#comp-j7enw0bpinlineContent {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#comp-j7enw0bpinlineContent-gridWrapper {
+    pointer-events: none;
+}
+
+#comp-j7enw0bpinlineContent-gridContainer {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: 811px;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 100%;
+}
+
+#comp-j7envlor {
+    position: relative;
+    margin: 112px 0px 41px calc((100% - 490px) * 0.5);
+    left: 59px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-j7envlop {
+    position: relative;
+    margin: 0px 0px 10px calc((100% - 490px) * 0.5);
+    left: 20px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#comp-j7enw0bpcenteredContent {
+    position: relative;
+}
+
+#comp-j7enw0bpinlineContent-gridContainer > * {
+    pointer-events: initial;
+}
+
+#comp-j7enw0bpinlineContent-gridContainer > [id$="-rotated-wrapper"] {
+    pointer-events: none;
+}
+
+#comp-j7enw0bpinlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
+    pointer-events: initial;
 }
 h1{
   font-family:'Montserrat',sans-serif;
@@ -238,7 +276,7 @@ p{
 }
 ::selection {
     color: #fff;
-    background: #003cd7;
+    background: #8c0000;
     text-shadow: none;
 }
 /*Forma do Site*/

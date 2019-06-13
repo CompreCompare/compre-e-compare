@@ -227,7 +227,6 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
 }
 
 a {
@@ -2627,8 +2626,9 @@ table th[class*="span"],
   background-position: -432px -72px;
 }
 
-.icon-chevron-right {
+.icon-right{
   background-position: -456px -72px;
+  background-image: url("../img/_shopping-icon.png");
 }
 
 .icon-plus-sign {

@@ -21,10 +21,6 @@ body{
   font-family: 'Quenda';
   src: url("../fonts/quenda/Quenda-Medium.otf");
 }
-h5{
-  color: white !important;
-}
-
 [class*="span3 well"] {
   float: none !important;
   min-height: 0 !important;
@@ -379,5 +375,7 @@ p.footer-gd a:hover {
     padding-left: 0;
     padding-right: 0;
 }
+
+
 
 

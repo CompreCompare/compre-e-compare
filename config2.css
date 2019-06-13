@@ -422,7 +422,7 @@ section {
 
 ::selection {
   color: #fff;
-  background: #003cd7;
+  background: #8c0000;
   text-shadow: none;
 }
 
@@ -759,5 +759,24 @@ p.footer-gd a:hover {
     max-width: 100%;
     padding-left: 0;
     padding-right: 0;
+}
+.font_5{
+line-height:1.4em;
+font: normal normal normal 25px/1.4em 'open sans',sans-serif ;
+color:#000000;}
+.font_8{
+line-height:1.4em !important;
+font: normal normal normal 14px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif ;
+color:#535353!important;}
+.txtNew p {margin:0;line-height:normal;letter-spacing:normal;}
+.txtNew h5 {margin:0;line-height:normal;letter-spacing:normal;}
+
+#WRchTxt1 {
+    position: relative;
+    margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+    left: 8px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
 }
 

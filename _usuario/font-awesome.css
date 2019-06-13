@@ -617,9 +617,6 @@ a .icon-flip-vertical:before {
 .icon-chevron-left:before {
   content: "\f053";
 }
-.icon-chevron-right:before {
-  content: "\f054";
-}
 .icon-plus-sign:before {
   content: "\f055";
 }
